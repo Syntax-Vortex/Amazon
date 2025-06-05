@@ -1,2 +1,1 @@
-const cart = [];
-let cartQuantity = 0;
+export const cart = [];
