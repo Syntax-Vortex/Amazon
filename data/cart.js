@@ -11,7 +11,8 @@ export function addItemToCart(productID) {
     if(!inside){
       let obj = {
         productID: productID,
-        quantity: 1
+        quantity: 1,
+        deliveryID: 0
       };
       cart.push(obj);
     }
